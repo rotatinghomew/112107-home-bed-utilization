@@ -1,0 +1,5 @@
+quote,bundle,home,work,asset_kind,line_price,bundle_price,start,end,valid_until
+Q1,B1,H1,rail,assist,500000,500000,2026-06-04,2026-06-08,2026-05-30
+Q2,B2,H2,floor,,410000,710000,2026-06-06,2026-06-12,2026-05-30
+Q3,B2,H2,fitting,transfer,420000,710000,2026-06-06,2026-06-12,2026-05-30
+Q4,B3,H3,floor,transfer,530000,530000,2026-06-16,2026-06-20,2026-05-30

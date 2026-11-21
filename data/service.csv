@@ -1,4 +1,0 @@
-event_id,household_id,date,service,status
-S1,H1,2026-02-21,visit,completed
-S2,H1,2026-03-06,bathing,completed
-S3,H3,2026-03-11,visit,completed

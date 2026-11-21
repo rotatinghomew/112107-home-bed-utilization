@@ -1,0 +1,4 @@
+asset,kind,held_for,reserved_until,received_back,cooldown_days,recorded_at
+X1,transfer,H-old,2026-05-30,2026-06-08,4,2026-06-08
+X2,transfer,H3,2026-09-01,,3,2026-05-10
+X3,assist,,,,1,2026-05-10

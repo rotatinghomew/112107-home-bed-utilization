@@ -1,0 +1,6 @@
+evidence,home,kind,related,effective,recorded_at,replaces
+D1,H2,accepted,Q2,2026-06-12,2026-06-12,
+D2,H2,accepted,Q3,2026-06-16,2026-06-17,
+D3,H2,device_ready,X1,2026-06-17,2026-06-17,
+D4,H2,first_visit,TEAM-W,2026-06-30,2026-07-01,
+D5,H2,wrong_scope,Q3,2026-06-16,2026-07-02,D2

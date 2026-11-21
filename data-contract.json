@@ -1,50 +1,107 @@
 {
-  "project": "家庭养老床位建设与使用资料",
   "data_is_synthetic": true,
-  "encoding": "UTF-8",
+  "timezone": "Asia/Shanghai",
   "files": {
-    "applications.csv": {
+    "households.csv": {
       "columns": [
-        "application_id",
-        "household_id",
-        "assessed_at",
-        "need_band",
-        "eligibility",
-        "revision"
+        "home",
+        "district",
+        "kind",
+        "access",
+        "from",
+        "until",
+        "assessed_at"
+      ],
+      "row_count": 3
+    },
+    "quotes.csv": {
+      "columns": [
+        "quote",
+        "bundle",
+        "home",
+        "work",
+        "asset_kind",
+        "line_price",
+        "bundle_price",
+        "start",
+        "end",
+        "valid_until"
       ],
       "row_count": 4
     },
-    "projects.csv": {
+    "assets.csv": {
       "columns": [
-        "project_id",
-        "household_id",
-        "approved_at",
-        "accepted_at",
-        "cost",
-        "status"
+        "asset",
+        "kind",
+        "held_for",
+        "reserved_until",
+        "received_back",
+        "cooldown_days",
+        "recorded_at"
       ],
       "row_count": 3
     },
-    "activation.csv": {
+    "delivery.csv": {
       "columns": [
-        "bed_id",
-        "household_id",
-        "activated_at",
-        "deactivated_at",
-        "device_id",
-        "state"
+        "evidence",
+        "home",
+        "kind",
+        "related",
+        "effective",
+        "recorded_at",
+        "replaces"
+      ],
+      "row_count": 5
+    },
+    "decisions.csv": {
+      "columns": [
+        "document",
+        "home",
+        "quote",
+        "asset",
+        "status",
+        "from",
+        "until",
+        "amount"
+      ],
+      "row_count": 1
+    },
+    "budgets.csv": {
+      "columns": [
+        "season",
+        "district",
+        "budget",
+        "minimum_days",
+        "min_analogues"
+      ],
+      "row_count": 2
+    },
+    "visit_windows.csv": {
+      "columns": [
+        "team",
+        "district",
+        "open_from",
+        "open_until",
+        "recorded_at",
+        "revision"
       ],
       "row_count": 3
     },
-    "service.csv": {
+    "analogue_cases.csv": {
       "columns": [
-        "event_id",
-        "household_id",
-        "date",
-        "service",
-        "status"
+        "home",
+        "district",
+        "kind",
+        "access",
+        "approved_from",
+        "approved_until",
+        "verified",
+        "device_ready",
+        "first_visit",
+        "observation_end",
+        "recorded_at"
       ],
-      "row_count": 3
+      "row_count": 36
     }
   }
 }

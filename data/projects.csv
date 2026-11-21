@@ -1,4 +1,0 @@
-project_id,household_id,approved_at,accepted_at,cost,status
-C1,H1,2026-01-15,2026-02-05,38000,accepted
-C2,H2,2026-02-01,,24000,in_progress
-C3,H3,2026-02-11,2026-03-01,31500,withdrawn
