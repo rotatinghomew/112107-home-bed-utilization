@@ -1,0 +1,4 @@
+bed_id,household_id,activated_at,deactivated_at,device_id,state
+B1,H1,2026-02-07,,E1,active
+B2,H2,,,,pending
+B3,H3,2026-03-02,2026-03-20,E3,closed

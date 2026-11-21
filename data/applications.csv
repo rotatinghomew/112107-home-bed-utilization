@@ -1,0 +1,5 @@
+application_id,household_id,assessed_at,need_band,eligibility,revision
+A11,H1,2026-01-04,high,eligible,1
+A12,H1,2026-02-18,high,eligible,2
+A21,H2,2026-01-11,medium,review,1
+A31,H3,2026-02-02,high,eligible,1

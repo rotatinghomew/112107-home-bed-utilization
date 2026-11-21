@@ -1,0 +1,50 @@
+{
+  "project": "家庭养老床位建设与使用资料",
+  "data_is_synthetic": true,
+  "encoding": "UTF-8",
+  "files": {
+    "applications.csv": {
+      "columns": [
+        "application_id",
+        "household_id",
+        "assessed_at",
+        "need_band",
+        "eligibility",
+        "revision"
+      ],
+      "row_count": 4
+    },
+    "projects.csv": {
+      "columns": [
+        "project_id",
+        "household_id",
+        "approved_at",
+        "accepted_at",
+        "cost",
+        "status"
+      ],
+      "row_count": 3
+    },
+    "activation.csv": {
+      "columns": [
+        "bed_id",
+        "household_id",
+        "activated_at",
+        "deactivated_at",
+        "device_id",
+        "state"
+      ],
+      "row_count": 3
+    },
+    "service.csv": {
+      "columns": [
+        "event_id",
+        "household_id",
+        "date",
+        "service",
+        "status"
+      ],
+      "row_count": 3
+    }
+  }
+}
