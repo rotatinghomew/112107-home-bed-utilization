@@ -1,0 +1,159 @@
+{
+  "accounting_rule": "原预测保留在 plan.original_forecast；冲正凭证不追溯计为启用，空窗不计入 confirmed_days，只进入 possible_upper_bound。",
+  "district": "西",
+  "exceptions": [
+    "H2: 缺少有效适配验收: Q3",
+    "H3: 缺少有效适配验收: Q4",
+    "H3: 缺少设备可用证据: B3:Q4:transfer",
+    "H3: 缺少责任机构首个服务记录"
+  ],
+  "financial_action": {
+    "budget_cents": 1300000,
+    "budget_remaining_after_issue_cents": 60000,
+    "cash_recovery_determinable": false,
+    "committed_cost_cents": 1240000,
+    "maximum_new_budget_if_full_commitment_decommitted_cents": 1240000,
+    "paid_cents": null,
+    "recommendation": "冻结尚未支付的合同余款并发起凭证补正/验收复核；已付金额能否追回需支付与合同条款，不能仅凭核算表认定",
+    "unpaid_balance_cents": null
+  },
+  "floor_met_by_confirmed_days": false,
+  "households": [
+    {
+      "asset_reviews": [
+        {
+          "asset": "X1",
+          "available_for_new_household": "2026-06-12",
+          "kind": "transfer",
+          "received_back": "2026-06-08",
+          "returned_during_commitment": false,
+          "slot": {
+            "asset": "X1",
+            "end": "2026-09-01",
+            "home": "H2",
+            "released": false,
+            "requirement": "B2:Q3:transfer",
+            "start": "2026-06-12"
+          }
+        }
+      ],
+      "blockers": [
+        "缺少有效适配验收: Q3"
+      ],
+      "bundle": "B2",
+      "bundles": [
+        "B2"
+      ],
+      "commitment_interval": {
+        "end": "2026-09-01",
+        "start": "2026-06-12"
+      },
+      "committed_confirmed_days": 0,
+      "committed_possible_upper_bound_days": 63,
+      "confirmed_days_in_approval_period": 0,
+      "confirmed_range": null,
+      "corrections": [
+        "D5:wrong_scope->D2"
+      ],
+      "event_flags": {
+        "acceptance_scope_or_validity_change": true,
+        "asset_returned_during_commitment": false,
+        "first_visit_condition_absent_or_failed": false
+      },
+      "home": "H2",
+      "original_forecast": {
+        "conservative_days": 55,
+        "hard_ceiling_days": 74,
+        "median_days": 63,
+        "optimistic_days": 69
+      },
+      "possible_upper_bound_days_in_approval_period": 63,
+      "status": "evidence_gap_or_correction",
+      "upper_bound_range": {
+        "days": 63,
+        "end": "2026-09-01",
+        "start": "2026-06-30"
+      },
+      "used_evidence": [
+        "D1",
+        "D3",
+        "D4"
+      ],
+      "variance_committed_vs_original_median": -63
+    },
+    {
+      "asset_reviews": [
+        {
+          "asset": "X2",
+          "available_for_new_household": null,
+          "kind": "transfer",
+          "received_back": null,
+          "returned_during_commitment": false,
+          "slot": {
+            "asset": "X2",
+            "end": "2026-09-01",
+            "home": "H3",
+            "released": false,
+            "requirement": "B3:Q4:transfer",
+            "start": "2026-06-16"
+          }
+        }
+      ],
+      "blockers": [
+        "缺少有效适配验收: Q4",
+        "缺少设备可用证据: B3:Q4:transfer",
+        "缺少责任机构首个服务记录"
+      ],
+      "bundle": "B3",
+      "bundles": [
+        "B3"
+      ],
+      "commitment_interval": {
+        "end": "2026-09-01",
+        "start": "2026-06-16"
+      },
+      "committed_confirmed_days": 0,
+      "committed_possible_upper_bound_days": 67,
+      "confirmed_days_in_approval_period": 0,
+      "confirmed_range": null,
+      "corrections": [],
+      "event_flags": {
+        "acceptance_scope_or_validity_change": false,
+        "asset_returned_during_commitment": false,
+        "first_visit_condition_absent_or_failed": true
+      },
+      "home": "H3",
+      "original_forecast": {
+        "conservative_days": 41,
+        "hard_ceiling_days": 73,
+        "median_days": 49,
+        "optimistic_days": 55
+      },
+      "possible_upper_bound_days_in_approval_period": 97,
+      "status": "evidence_gap_or_correction",
+      "upper_bound_range": {
+        "days": 97,
+        "end": "2026-10-01",
+        "start": "2026-06-26"
+      },
+      "used_evidence": [],
+      "variance_committed_vs_original_median": -49
+    }
+  ],
+  "minimum_days": 38,
+  "plan_id": "W-2026Q3",
+  "settled_as_of": "2026-11-25",
+  "totals": {
+    "committed_confirmed_days": 0,
+    "committed_possible_upper_bound_days": 130,
+    "confirmed_days": 0,
+    "possible_upper_bound_days": 160
+  },
+  "waitlist_review": {
+    "all_candidates": [],
+    "candidate_count": 0,
+    "conclusion": "没有可直接转入的备选：可能缺少同区候选、报价已失效、资产冲突或预算不足",
+    "feasible_transfer_count": 0,
+    "feasible_transfers": []
+  }
+}

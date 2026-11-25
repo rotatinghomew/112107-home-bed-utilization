@@ -1,0 +1,553 @@
+{
+  "as_of": "2026-05-20",
+  "base_budget_cents": 1300000,
+  "budget_cents": 1300000,
+  "district": "西",
+  "locked_bundle_ids": [
+    "B3"
+  ],
+  "locked_cost_cents": 530000,
+  "minimum_days": 38,
+  "options": [
+    {
+      "approvable": false,
+      "assignments": {
+        "B3:Q4:transfer": "X2"
+      },
+      "budget_feasible": true,
+      "budget_remaining_cents": 770000,
+      "bundles": [
+        "B3"
+      ],
+      "conservative_days": 34,
+      "cost_cents": 530000,
+      "district_meets_minimum": false,
+      "hard_ceiling_days": 66,
+      "households": {
+        "H3": {
+          "assigned_assets": {
+            "B3:Q4:transfer": "X2"
+          },
+          "bundle": "B3",
+          "bundles": [
+            "B3"
+          ],
+          "conservative_days": 34,
+          "district": "西",
+          "forecast": {
+            "activation_samples": 13,
+            "confirmed_inactive": 2,
+            "conservative_days": 34,
+            "conservative_start": "2026-07-29",
+            "hard_start": "2026-06-20",
+            "idle_lags": [
+              -4,
+              2,
+              3,
+              4,
+              5,
+              10,
+              11,
+              12,
+              12,
+              13,
+              13,
+              14,
+              14
+            ],
+            "median_days": 42,
+            "median_start": "2026-07-21",
+            "offsets": [
+              23,
+              25,
+              25,
+              25,
+              27,
+              27,
+              29,
+              31,
+              33,
+              33,
+              35,
+              37,
+              37
+            ],
+            "optimistic_days": 48,
+            "optimistic_start": "2026-07-15",
+            "sample_size": 18,
+            "supported": true,
+            "waiting": 3
+          },
+          "hard_ceiling_days": 66,
+          "hard_start": "2026-06-20",
+          "home": "H3",
+          "horizon_end": "2026-09-01",
+          "median_days": 42,
+          "optimistic_days": 48
+        }
+      },
+      "locked_cost_cents": 530000,
+      "median_days": 42,
+      "meets_minimum": false,
+      "optimistic_days": 48,
+      "optional_bundles": [],
+      "protected_commitments_meet_minimum": false,
+      "protected_floor_breaches": [
+        {
+          "bundle": "B3",
+          "conservative_days": 34,
+          "home": "H3",
+          "minimum_days": 38
+        }
+      ],
+      "quote_valid": true,
+      "requirements": [],
+      "resource_feasible": true,
+      "service_delay_days": 7,
+      "unavailable_asset_ids": [],
+      "validity_problems": []
+    },
+    {
+      "approvable": false,
+      "assignments": {
+        "B2:Q3:transfer": "X1",
+        "B3:Q4:transfer": "X2"
+      },
+      "budget_feasible": true,
+      "budget_remaining_cents": 60000,
+      "bundles": [
+        "B3",
+        "B2"
+      ],
+      "conservative_days": 82,
+      "cost_cents": 1240000,
+      "district_meets_minimum": true,
+      "hard_ceiling_days": 133,
+      "households": {
+        "H2": {
+          "assigned_assets": {
+            "B2:Q3:transfer": "X1"
+          },
+          "bundle": "B2",
+          "bundles": [
+            "B2"
+          ],
+          "conservative_days": 48,
+          "district": "西",
+          "forecast": {
+            "activation_samples": 13,
+            "confirmed_inactive": 2,
+            "conservative_days": 48,
+            "conservative_start": "2026-07-15",
+            "hard_start": "2026-06-19",
+            "idle_lags": [
+              -4,
+              2,
+              3,
+              4,
+              5,
+              10,
+              11,
+              12,
+              12,
+              13,
+              13,
+              14,
+              14
+            ],
+            "median_days": 56,
+            "median_start": "2026-07-07",
+            "offsets": [
+              23,
+              25,
+              25,
+              25,
+              27,
+              27,
+              29,
+              31,
+              33,
+              33,
+              35,
+              37,
+              37
+            ],
+            "optimistic_days": 62,
+            "optimistic_start": "2026-07-01",
+            "sample_size": 18,
+            "supported": true,
+            "waiting": 3
+          },
+          "hard_ceiling_days": 67,
+          "hard_start": "2026-06-19",
+          "home": "H2",
+          "horizon_end": "2026-09-01",
+          "median_days": 56,
+          "optimistic_days": 62
+        },
+        "H3": {
+          "assigned_assets": {
+            "B3:Q4:transfer": "X2"
+          },
+          "bundle": "B3",
+          "bundles": [
+            "B3"
+          ],
+          "conservative_days": 34,
+          "district": "西",
+          "forecast": {
+            "activation_samples": 13,
+            "confirmed_inactive": 2,
+            "conservative_days": 34,
+            "conservative_start": "2026-07-29",
+            "hard_start": "2026-06-20",
+            "idle_lags": [
+              -4,
+              2,
+              3,
+              4,
+              5,
+              10,
+              11,
+              12,
+              12,
+              13,
+              13,
+              14,
+              14
+            ],
+            "median_days": 42,
+            "median_start": "2026-07-21",
+            "offsets": [
+              23,
+              25,
+              25,
+              25,
+              27,
+              27,
+              29,
+              31,
+              33,
+              33,
+              35,
+              37,
+              37
+            ],
+            "optimistic_days": 48,
+            "optimistic_start": "2026-07-15",
+            "sample_size": 18,
+            "supported": true,
+            "waiting": 3
+          },
+          "hard_ceiling_days": 66,
+          "hard_start": "2026-06-20",
+          "home": "H3",
+          "horizon_end": "2026-09-01",
+          "median_days": 42,
+          "optimistic_days": 48
+        }
+      },
+      "locked_cost_cents": 530000,
+      "median_days": 98,
+      "meets_minimum": false,
+      "optimistic_days": 110,
+      "optional_bundles": [
+        "B2"
+      ],
+      "protected_commitments_meet_minimum": false,
+      "protected_floor_breaches": [
+        {
+          "bundle": "B3",
+          "conservative_days": 34,
+          "home": "H3",
+          "minimum_days": 38
+        }
+      ],
+      "quote_valid": true,
+      "requirements": [
+        {
+          "end": "2026-09-01",
+          "id": "B2:Q3:transfer",
+          "kind": "transfer",
+          "start": "2026-06-12"
+        }
+      ],
+      "resource_feasible": true,
+      "service_delay_days": 7,
+      "unavailable_asset_ids": [],
+      "validity_problems": []
+    }
+  ],
+  "pareto": [
+    {
+      "approvable": false,
+      "assignments": {
+        "B3:Q4:transfer": "X2"
+      },
+      "budget_feasible": true,
+      "budget_remaining_cents": 770000,
+      "bundles": [
+        "B3"
+      ],
+      "conservative_days": 34,
+      "cost_cents": 530000,
+      "district_meets_minimum": false,
+      "hard_ceiling_days": 66,
+      "households": {
+        "H3": {
+          "assigned_assets": {
+            "B3:Q4:transfer": "X2"
+          },
+          "bundle": "B3",
+          "bundles": [
+            "B3"
+          ],
+          "conservative_days": 34,
+          "district": "西",
+          "forecast": {
+            "activation_samples": 13,
+            "confirmed_inactive": 2,
+            "conservative_days": 34,
+            "conservative_start": "2026-07-29",
+            "hard_start": "2026-06-20",
+            "idle_lags": [
+              -4,
+              2,
+              3,
+              4,
+              5,
+              10,
+              11,
+              12,
+              12,
+              13,
+              13,
+              14,
+              14
+            ],
+            "median_days": 42,
+            "median_start": "2026-07-21",
+            "offsets": [
+              23,
+              25,
+              25,
+              25,
+              27,
+              27,
+              29,
+              31,
+              33,
+              33,
+              35,
+              37,
+              37
+            ],
+            "optimistic_days": 48,
+            "optimistic_start": "2026-07-15",
+            "sample_size": 18,
+            "supported": true,
+            "waiting": 3
+          },
+          "hard_ceiling_days": 66,
+          "hard_start": "2026-06-20",
+          "home": "H3",
+          "horizon_end": "2026-09-01",
+          "median_days": 42,
+          "optimistic_days": 48
+        }
+      },
+      "locked_cost_cents": 530000,
+      "median_days": 42,
+      "meets_minimum": false,
+      "optimistic_days": 48,
+      "optional_bundles": [],
+      "protected_commitments_meet_minimum": false,
+      "protected_floor_breaches": [
+        {
+          "bundle": "B3",
+          "conservative_days": 34,
+          "home": "H3",
+          "minimum_days": 38
+        }
+      ],
+      "quote_valid": true,
+      "requirements": [],
+      "resource_feasible": true,
+      "service_delay_days": 7,
+      "unavailable_asset_ids": [],
+      "validity_problems": []
+    },
+    {
+      "approvable": false,
+      "assignments": {
+        "B2:Q3:transfer": "X1",
+        "B3:Q4:transfer": "X2"
+      },
+      "budget_feasible": true,
+      "budget_remaining_cents": 60000,
+      "bundles": [
+        "B3",
+        "B2"
+      ],
+      "conservative_days": 82,
+      "cost_cents": 1240000,
+      "district_meets_minimum": true,
+      "hard_ceiling_days": 133,
+      "households": {
+        "H2": {
+          "assigned_assets": {
+            "B2:Q3:transfer": "X1"
+          },
+          "bundle": "B2",
+          "bundles": [
+            "B2"
+          ],
+          "conservative_days": 48,
+          "district": "西",
+          "forecast": {
+            "activation_samples": 13,
+            "confirmed_inactive": 2,
+            "conservative_days": 48,
+            "conservative_start": "2026-07-15",
+            "hard_start": "2026-06-19",
+            "idle_lags": [
+              -4,
+              2,
+              3,
+              4,
+              5,
+              10,
+              11,
+              12,
+              12,
+              13,
+              13,
+              14,
+              14
+            ],
+            "median_days": 56,
+            "median_start": "2026-07-07",
+            "offsets": [
+              23,
+              25,
+              25,
+              25,
+              27,
+              27,
+              29,
+              31,
+              33,
+              33,
+              35,
+              37,
+              37
+            ],
+            "optimistic_days": 62,
+            "optimistic_start": "2026-07-01",
+            "sample_size": 18,
+            "supported": true,
+            "waiting": 3
+          },
+          "hard_ceiling_days": 67,
+          "hard_start": "2026-06-19",
+          "home": "H2",
+          "horizon_end": "2026-09-01",
+          "median_days": 56,
+          "optimistic_days": 62
+        },
+        "H3": {
+          "assigned_assets": {
+            "B3:Q4:transfer": "X2"
+          },
+          "bundle": "B3",
+          "bundles": [
+            "B3"
+          ],
+          "conservative_days": 34,
+          "district": "西",
+          "forecast": {
+            "activation_samples": 13,
+            "confirmed_inactive": 2,
+            "conservative_days": 34,
+            "conservative_start": "2026-07-29",
+            "hard_start": "2026-06-20",
+            "idle_lags": [
+              -4,
+              2,
+              3,
+              4,
+              5,
+              10,
+              11,
+              12,
+              12,
+              13,
+              13,
+              14,
+              14
+            ],
+            "median_days": 42,
+            "median_start": "2026-07-21",
+            "offsets": [
+              23,
+              25,
+              25,
+              25,
+              27,
+              27,
+              29,
+              31,
+              33,
+              33,
+              35,
+              37,
+              37
+            ],
+            "optimistic_days": 48,
+            "optimistic_start": "2026-07-15",
+            "sample_size": 18,
+            "supported": true,
+            "waiting": 3
+          },
+          "hard_ceiling_days": 66,
+          "hard_start": "2026-06-20",
+          "home": "H3",
+          "horizon_end": "2026-09-01",
+          "median_days": 42,
+          "optimistic_days": 48
+        }
+      },
+      "locked_cost_cents": 530000,
+      "median_days": 98,
+      "meets_minimum": false,
+      "optimistic_days": 110,
+      "optional_bundles": [
+        "B2"
+      ],
+      "protected_commitments_meet_minimum": false,
+      "protected_floor_breaches": [
+        {
+          "bundle": "B3",
+          "conservative_days": 34,
+          "home": "H3",
+          "minimum_days": 38
+        }
+      ],
+      "quote_valid": true,
+      "requirements": [
+        {
+          "end": "2026-09-01",
+          "id": "B2:Q3:transfer",
+          "kind": "transfer",
+          "start": "2026-06-12"
+        }
+      ],
+      "resource_feasible": true,
+      "service_delay_days": 7,
+      "unavailable_asset_ids": [],
+      "validity_problems": []
+    }
+  ],
+  "prior_new_commitment_cents": 0,
+  "recommended": null
+}
